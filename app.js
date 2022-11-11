@@ -64,6 +64,6 @@ function sacuvajRate () {
 naruciDugme.addEventListener('click', function (event) {
     event.preventDefault();
     proveriIme();
-    window.location.replace('potvrda.html');
+    window.location.href = 'potvrda.html';
 })
 
