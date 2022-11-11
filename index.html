@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Slike/slika.jpeg" alt="auto skola" class="hero-img">
+    </header>
+    <nav>
+        <h1>Siguran put do vozačke dozvole.</h1>
+        <h2>Pozovite nas odmah: 011/123-123</h2>
+    </nav>
+    <main>
+            <div class="stop-sign">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+                <img src="Slike/stop.png" alt="">
+            </div>
+            <h3>Prijavite se odmah!</h3>
+            <form>
+                <div class="top-form">
+                    <label for="ime">Ime:</label>
+                    <input type="text" id="ime">
+                    <label for="prezime">Prezime:</label>
+                    <input type="text" id="prezime">
+                    <label for="adresa">Adresa:</label>
+                    <input type="text" id="adresa">
+                    <label for="jmbg">JMBG:</label>
+                    <input type="number" id="jmbg">
+                </div>
+                <hr>
+                <div class="bottom-form">
+                    <label for="kategorija">Kategorija:</label>
+                    <div id="kategorija">
+                        <input type="radio" name="kategorija" id="a-kategorija" value="a">
+                        <label for="a-kategorija">A</label>
+                        <input type="radio" name="kategorija" id="b-kategorija" value="b" checked>
+                        <label for="b-kategorija">B</label>
+                        <input type="radio" name="kategorija" id="c-kategorija" value="c">
+                        <label for="c-kategorija">C</label>
+                    </div>
+                    <label for="rate">Broj rata:</label>
+                    <select name="rate" id="rate">
+                        <option value="3">3</option>
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                    </select>
+                    <button>Naruči</button>
+                </div>
+            </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
