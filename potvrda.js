@@ -6,7 +6,7 @@ function popuniTabelu () {
     document.querySelector('#potvrda-kategorija').innerText = localStorage.getItem('kategorija');
     document.querySelector('#ukupna-cena').innerText = ukupnaCena() + " din";    
     document.querySelector('#potvrda-rate').innerText = localStorage.getItem('rate');
-    document.querySelector('#iznos-rate').innerText = Math.round(ukupnaCena() / localStorage.getItem('rate'));
+    document.querySelector('#iznos-rate').innerText = Math.round(ukupnaCena() / localStorage.getItem('rate')) + " din";
 }
 
 function ukupnaCena () {
